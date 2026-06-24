@@ -5,7 +5,7 @@ Proyecto del Primer Parcial — Organización de Computadores (CCPG1049) — ESP
 ## Requisitos
 
 - Navegador web moderno (Chrome, Firefox, Edge)
-- Acceso a [Mipsy Web](https://mipsy.cse.unsw.edu.au/)
+- Acceso a [Mipsy Web](https://cgi.cse.unsw.edu.au/~cs1521/mipsy/)
 
 No se necesita instalar nada.
 
@@ -13,18 +13,19 @@ No se necesita instalar nada.
 
 ### 1. Abrir Mipsy Web
 
-Ingresa a **https://mipsy.cse.unsw.edu.au/** en tu navegador.
+Ingresa a **https://cgi.cse.unsw.edu.au/~cs1521/mipsy/** en tu navegador.
 
 ### 2. Cargar el archivo
 
-- Haz clic en **"Open File"** (ícono de carpeta, esquina superior izquierda).
+- Haz clic en **"Load"** (ícono de carpeta, esquina superior izquierda).
 - Selecciona el archivo `mundial2026.s`.
 - El código aparecerá en el editor.
 
 ### 3. Compilar
 
-- Haz clic en el botón **"Assemble"** (o presiona el ícono de engranaje).
-- Si no aparece ningún error en el panel inferior, el ensamblado fue exitoso.
+- Una vez que el código esté en el editor, haga clic en el botón **Save**
+- En Mipsy Web, esta acción guarda el progreso y realiza el ensamblado automático del código a lenguaje máquina en tiempo real.
+-Si existen errores sintácticos, el entorno mostrará las alertas en la sección inferior. Si no se muestran errores, el programa queda listo para correr.
 
 ### 4. Ejecutar
 

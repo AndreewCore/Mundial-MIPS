@@ -7,54 +7,77 @@
 .data
 
 # ==================== NOMBRES DE LOS 48 PAISES ====================
-pais0:  .asciiz "USA"
-pais1:  .asciiz "Canada"
-pais2:  .asciiz "Mexico"
-pais3:  .asciiz "Argentina"
-pais4:  .asciiz "Brasil"
-pais5:  .asciiz "Colombia"
-pais6:  .asciiz "Uruguay"
-pais7:  .asciiz "Ecuador"
-pais8:  .asciiz "Venezuela"
-pais9:  .asciiz "Paraguay"
-pais10: .asciiz "Panama"
-pais11: .asciiz "Honduras"
-pais12: .asciiz "Jamaica"
-pais13: .asciiz "Alemania"
-pais14: .asciiz "Francia"
-pais15: .asciiz "Espana"
-pais16: .asciiz "Inglaterra"
-pais17: .asciiz "Portugal"
-pais18: .asciiz "Paises Bajos"
-pais19: .asciiz "Italia"
-pais20: .asciiz "Belgica"
-pais21: .asciiz "Suiza"
-pais22: .asciiz "Polonia"
-pais23: .asciiz "Croacia"
-pais24: .asciiz "Austria"
-pais25: .asciiz "Dinamarca"
-pais26: .asciiz "Serbia"
-pais27: .asciiz "Turquia"
-pais28: .asciiz "Escocia"
-pais29: .asciiz "Hungria"
-pais30: .asciiz "Marruecos"
-pais31: .asciiz "Senegal"
-pais32: .asciiz "Egipto"
-pais33: .asciiz "Nigeria"
-pais34: .asciiz "Camerun"
-pais35: .asciiz "Ghana"
-pais36: .asciiz "Costa de Marfil"
-pais37: .asciiz "Tunez"
-pais38: .asciiz "Argelia"
-pais39: .asciiz "Sudafrica"
-pais40: .asciiz "Japon"
-pais41: .asciiz "Corea del Sur"
-pais42: .asciiz "Arabia Saudita"
-pais43: .asciiz "Australia"
-pais44: .asciiz "Iran"
-pais45: .asciiz "Uzbekistan"
-pais46: .asciiz "Iraq"
-pais47: .asciiz "Nueva Zelanda"
+# --- GRUPO A ---
+pais0:  .asciiz "Mexico"
+pais1:  .asciiz "Sudafrica"
+pais2:  .asciiz "Corea"
+pais3:  .asciiz "Rep. Checa"
+
+# --- GRUPO B ---
+pais4:  .asciiz "Canada"
+pais5:  .asciiz "Bosnia"
+pais6:  .asciiz "Qatar"
+pais7:  .asciiz "Suiza"
+
+# --- GRUPO C ---
+pais8:  .asciiz "Brasil"
+pais9:  .asciiz "Marruecos"
+pais10: .asciiz "Haiti"
+pais11: .asciiz "Escocia"
+
+# --- GRUPO D ---
+pais12: .asciiz "USA"
+pais13: .asciiz "Paraguay"
+pais14: .asciiz "Australia"
+pais15: .asciiz "Turquia"
+
+# --- GRUPO E ---
+pais16: .asciiz "Alemania"
+pais17: .asciiz "Curazao"
+pais18: .asciiz "Costa de Marfil"
+pais19: .asciiz "Ecuador"
+
+# --- GRUPO F ---
+pais20: .asciiz "Paises Bajos"
+pais21: .asciiz "Japon"
+pais22: .asciiz "Suecia"
+pais23: .asciiz "Tunez"
+
+# --- GRUPO G ---
+pais24: .asciiz "Belgica"
+pais25: .asciiz "Egipto"
+pais26: .asciiz "Iran"
+pais27: .asciiz "Nueva Zelanda"
+
+# --- GRUPO H ---
+pais28: .asciiz "Espana"
+pais29: .asciiz "Cabo Verde"
+pais30: .asciiz "Arabia Saudita"
+pais31: .asciiz "Uruguay"
+
+# --- GRUPO I ---
+pais32: .asciiz "Francia"
+pais33: .asciiz "Senegal"
+pais34: .asciiz "Bolivia"
+pais35: .asciiz "Noruega"
+
+# --- GRUPO J ---
+pais36: .asciiz "Argentina"
+pais37: .asciiz "Argelia"
+pais38: .asciiz "Austria"
+pais39: .asciiz "Jordania"
+
+# --- GRUPO K ---
+pais40: .asciiz "Portugal"
+pais41: .asciiz "Jamaica"
+pais42: .asciiz "Uzbekistan"
+pais43: .asciiz "Colombia"
+
+# --- GRUPO L ---
+pais44: .asciiz "Inglaterra"
+pais45: .asciiz "Croacia"
+pais46: .asciiz "Ghana"
+pais47: .asciiz "Panama"
 
 # Tabla de punteros a los nombres de paises (48 entradas)
 pais_ptrs:
