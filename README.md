@@ -21,7 +21,6 @@ Ingresa a **https://cgi.cse.unsw.edu.au/~cs1521/mipsy/** en tu navegador.
 - Selecciona el archivo `mundial2026.s`.
 - El código aparecerá en el editor.
 
-### 3. Compilar
 
 ### 3. Compilar
 
