@@ -11,7 +11,7 @@
 pais0:  .asciiz "Mexico"
 pais1:  .asciiz "Sudafrica"
 pais2:  .asciiz "Corea"
-pais3:  .asciiz "Rep. Checa"
+pais3:  .asciiz "Republica Checa"
 
 # --- GRUPO B ---
 pais4:  .asciiz "Canada"

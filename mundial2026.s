@@ -7,61 +7,77 @@
 .data
 
 # ==================== NOMBRES DE LOS 48 PAISES ====================
-# CONCACAF - Anfitriones
-pais0:  .asciiz "USA"
-pais1:  .asciiz "Canada"
-pais2:  .asciiz "Mexico"
-# CONMEBOL
-pais3:  .asciiz "Argentina"
-pais4:  .asciiz "Brasil"
-pais5:  .asciiz "Colombia"
-pais6:  .asciiz "Ecuador"
-pais7:  .asciiz "Paraguay"
-pais8:  .asciiz "Uruguay"
-# AFC
-pais9:  .asciiz "Australia"
-pais10: .asciiz "Iraq"
-pais11: .asciiz "Iran"
-pais12: .asciiz "Japon"
-pais13: .asciiz "Jordania"
-pais14: .asciiz "Corea del Sur"
-pais15: .asciiz "Catar"
-pais16: .asciiz "Arabia Saudita"
-pais17: .asciiz "Uzbekistan"
-# CAF
-pais18: .asciiz "Argelia"
-pais19: .asciiz "Cabo Verde"
-pais20: .asciiz "Congo RD"
-pais21: .asciiz "Costa de Marfil"
-pais22: .asciiz "Egipto"
-pais23: .asciiz "Ghana"
-pais24: .asciiz "Marruecos"
-pais25: .asciiz "Senegal"
-pais26: .asciiz "Sudafrica"
-pais27: .asciiz "Tunez"
-# CONCACAF - No anfitriones
-pais28: .asciiz "Curazao"
-pais29: .asciiz "Haiti"
-pais30: .asciiz "Panama"
-# OFC
-pais31: .asciiz "Nueva Zelanda"
-# UEFA
-pais32: .asciiz "Austria"
-pais33: .asciiz "Belgica"
-pais34: .asciiz "Bosnia y Herzegovina"
-pais35: .asciiz "Croacia"
-pais36: .asciiz "Republica Checa"
-pais37: .asciiz "Inglaterra"
-pais38: .asciiz "Francia"
-pais39: .asciiz "Alemania"
-pais40: .asciiz "Paises Bajos"
-pais41: .asciiz "Noruega"
-pais42: .asciiz "Portugal"
-pais43: .asciiz "Escocia"
-pais44: .asciiz "Espana"
-pais45: .asciiz "Suecia"
-pais46: .asciiz "Suiza"
-pais47: .asciiz "Turquia"
+# --- GRUPO A ---
+pais0:  .asciiz "Mexico"
+pais1:  .asciiz "Sudafrica"
+pais2:  .asciiz "Corea"
+pais3:  .asciiz "Republica Checa"
+
+# --- GRUPO B ---
+pais4:  .asciiz "Canada"
+pais5:  .asciiz "Bosnia"
+pais6:  .asciiz "Qatar"
+pais7:  .asciiz "Suiza"
+
+# --- GRUPO C ---
+pais8:  .asciiz "Brasil"
+pais9:  .asciiz "Marruecos"
+pais10: .asciiz "Haiti"
+pais11: .asciiz "Escocia"
+
+# --- GRUPO D ---
+pais12: .asciiz "USA"
+pais13: .asciiz "Paraguay"
+pais14: .asciiz "Australia"
+pais15: .asciiz "Turquia"
+
+# --- GRUPO E ---
+pais16: .asciiz "Alemania"
+pais17: .asciiz "Curazao"
+pais18: .asciiz "Costa de Marfil"
+pais19: .asciiz "Ecuador"
+
+# --- GRUPO F ---
+pais20: .asciiz "Paises Bajos"
+pais21: .asciiz "Japon"
+pais22: .asciiz "Suecia"
+pais23: .asciiz "Tunez"
+
+# --- GRUPO G ---
+pais24: .asciiz "Belgica"
+pais25: .asciiz "Egipto"
+pais26: .asciiz "Iran"
+pais27: .asciiz "Nueva Zelanda"
+
+# --- GRUPO H ---
+pais28: .asciiz "Espana"
+pais29: .asciiz "Cabo Verde"
+pais30: .asciiz "Arabia Saudita"
+pais31: .asciiz "Uruguay"
+
+# --- GRUPO I ---
+pais32: .asciiz "Francia"
+pais33: .asciiz "Senegal"
+pais34: .asciiz "Bolivia"
+pais35: .asciiz "Noruega"
+
+# --- GRUPO J ---
+pais36: .asciiz "Argentina"
+pais37: .asciiz "Argelia"
+pais38: .asciiz "Austria"
+pais39: .asciiz "Jordania"
+
+# --- GRUPO K ---
+pais40: .asciiz "Portugal"
+pais41: .asciiz "Jamaica"
+pais42: .asciiz "Uzbekistan"
+pais43: .asciiz "Colombia"
+
+# --- GRUPO L ---
+pais44: .asciiz "Inglaterra"
+pais45: .asciiz "Croacia"
+pais46: .asciiz "Ghana"
+pais47: .asciiz "Panama"
 
 # Tabla de punteros a los nombres de paises (48 entradas)
 pais_ptrs:

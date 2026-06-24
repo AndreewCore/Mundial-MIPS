@@ -25,6 +25,7 @@ Ingresa a **https://cgi.cse.unsw.edu.au/~cs1521/mipsy/** en tu navegador.
 
 - Una vez que el código esté en el editor, haga clic en el botón **Save**
 - En Mipsy Web, esta acción guarda el progreso y realiza el ensamblado automático del código a lenguaje máquina en tiempo real.
+
 -Si existen errores sintácticos, el entorno mostrará las alertas en la sección inferior. Si no se muestran errores, el programa queda listo para correr.
 
 ### 4. Ejecutar
